@@ -2401,42 +2401,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeComponent.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeComponent.vue?vue&type=script&lang=js& ***!
@@ -3281,6 +3245,1095 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     this.initialData();
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      pages: ['survey_stub', 'language', 'personal_information', 'transaction_type', 'survey_questions', 'rewards'],
+      survey: [],
+      gender: 'Male',
+      occupation: 'pub_employee',
+      others: null,
+      language: null,
+      messagebox: false,
+      message: [],
+      page: 0,
+      stub_number: null,
+      loader: false,
+      voucher_details: [],
+      other_answer: ''
+    };
+  },
+  methods: {
+    currentdate: function currentdate() {
+      var current = new Date();
+      var date = "".concat(current.getMonth() + 1, "/").concat(current.getDate(), "/").concat(current.getFullYear());
+      return date;
+    },
+    language_selection: function language_selection(e) {
+      this.language = e.target.id;
+      this.next();
+    },
+    closemessagebox: function closemessagebox() {
+      this.messagebox = false;
+    },
+    next: function next() {
+      if (this.validations(this.pages[this.page]) !== false) {
+        this.page++;
+        $("." + this.pages[this.page - 1]).hide();
+        $("." + this.pages[this.page]).show();
+      }
+    },
+    previous: function previous() {
+      this.page--;
+      $("." + this.pages[this.page + 1]).hide();
+      $("." + this.pages[this.page]).show();
+    },
+    checkbox: function checkbox(e) {
+      var element_id = e.target.id;
+      var parent_class = $("#" + element_id).parent().attr("class");
+      $("." + element_id + " .check-box-active").show();
+      $("." + parent_class).children().each(function () {
+        if ($(this).attr('id') !== element_id) {
+          $("." + $(this).attr('id') + " .check-box-active").hide();
+        }
+      });
+
+      if (element_id === 'survey_questions_q_6_2') {
+        $('#other_answer').show();
+      } else if (element_id === 'survey_questions_q_6_1') {
+        $('#other_answer').hide();
+        this.other_answer = '';
+      }
+    },
+    dataprivacycheck: function dataprivacycheck(e) {
+      if (e.target.checked) {
+        $('#check').show();
+        return;
+      }
+
+      $('#check').hide();
+    },
+    validate_stub_number: function validate_stub_number() {
+      var _this = this;
+
+      $('.survey_stub .err').text('');
+      $('.survey_stub .valid').text('');
+
+      if (this.stub_number === null || this.stub_number === '') {
+        $('.survey_stub .err').text('Survey number is required');
+        return;
+      }
+
+      axios.get('survey/check/' + this.stub_number).then(function (response) {
+        if (response.data.used === 1) {
+          $('.survey_stub .err').text('This code is already used!');
+        }
+
+        if (response.data.valid === 0) {
+          $('.survey_stub .err').text('This code is not valid!');
+        }
+
+        if ($('.survey_stub .err').text().length === 0) {
+          _this.next();
+
+          _this.voucher_details = response.data.voucher_details;
+        }
+      });
+    },
+    validations: function validations(form) {
+      var proceed = true;
+
+      if (this.page > 1) {
+        /* for input text validations */
+        $("." + form).find('input').each(function () {
+          var element = this;
+          var str = element.id.toLowerCase().replace(/\b[a-z]/g, function (letter) {
+            return letter.toUpperCase();
+          });
+          $("#" + element.id).removeClass('invalid').siblings('.err').html('');
+
+          if ($("#" + element.id).prop('required') && element.value === '') {
+            $("#" + element.id).addClass('invalid').siblings('.err').html(str + ' is Required');
+            proceed = false;
+          }
+        });
+
+        if (form === 'transaction_type') {
+          $('.transaction_type .err').text('');
+
+          if ($('input[name=transact_type_q]:checked').length === 0) {
+            $('.transaction_type .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          if ($('input[id=transact_type_q_other]:checked').length > 0) {
+            $('#other_input').addClass('invalid').siblings('.err').html('');
+            $('#other_input').removeClass('invalid');
+
+            if ($('#other_input').val() === '') {
+              $('#other_input').addClass('invalid').siblings('.err').html('Input is required');
+              proceed = false;
+            }
+          }
+        }
+
+        if (form === 'survey_questions') {
+          $('.survey_questions_q_1_1 .err').text('');
+
+          if ($('input[name=survey_questions_q_1_1]:checked').length === 0) {
+            $('.survey_questions_q_1_1 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('.survey_questions_q_1_2 .err').text('');
+
+          if ($('input[name=survey_questions_q_1_2]:checked').length === 0) {
+            $('.survey_questions_q_1_2 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('.survey_questions_q_2 .err').text('');
+
+          if ($('input[name=survey_questions_q_2]:checked').length === 0) {
+            $('.survey_questions_q_2 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('.survey_questions_q_3 .err').text('');
+
+          if ($('input[name=survey_questions_q_3]:checked').length === 0) {
+            $('.survey_questions_q_3 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('.survey_questions_q_5 .err').text('');
+
+          if ($('input[name=survey_questions_q_5]:checked').length === 0) {
+            $('.survey_questions_q_5 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('.survey_questions_q_6 .err').text('');
+
+          if ($('input[name=survey_questions_q_6]:checked').length === 0) {
+            $('.survey_questions_q_6 .err').text('Please select your answer');
+            proceed = false;
+          }
+
+          $('#survey_questions_q_box').addClass('invalid').siblings('.err').html('');
+          $('#survey_questions_q_box').removeClass('invalid');
+
+          if ($('#survey_questions_q_box').val() === '') {
+            $('#survey_questions_q_box').addClass('invalid').siblings('.err').html('This input is required');
+            proceed = false;
+          }
+
+          $('#other_answer_text').addClass('invalid').siblings('.err').html('');
+          $('#other_answer_text').removeClass('invalid');
+
+          if ($('#survey_questions_q_6_2:checked').length === 1) {
+            if ($('#other_answer_text').val() === '') {
+              $('#other_answer_text').addClass('invalid').siblings('.err').html('This input is required');
+              proceed = false;
+            }
+          }
+
+          $('.data-privacy-checkbox .err').text('');
+
+          if ($('input[id="data-privacy"]:checked').length === 0) {
+            $('.data-privacy-checkbox .err').text('Please check the data privacy');
+            proceed = false;
+          }
+        }
+      }
+
+      return proceed;
+    },
+    submit: function submit() {
+      var _this2 = this;
+
+      if (this.validations(this.pages[this.page])) {
+        $('#submit').attr('disabled', true);
+        axios.post('survey/store', {
+          language: this.language,
+          stub_number: this.stub_number,
+          name: this.survey.name,
+          occupation: this.occupation,
+          date: this.survey.date,
+          age: this.survey.age,
+          gender: this.gender,
+          email: this.survey.email,
+          mobile: this.survey.mobile,
+          transact_type: this.survey.transact_type,
+          survey_q_1_1: this.survey.survey_q_1_1,
+          survey_q_1_2: this.survey.survey_q_1_2,
+          survey_q_2: this.survey.survey_q_2,
+          survey_q_3: this.survey.survey_q_3,
+          survey_q_4: this.survey.survey_q_4,
+          survey_q_5: this.survey.survey_q_5,
+          survey_q_6: this.survey.survey_q_6,
+          survey_q_6_other: this.other_answer
+        }).then(function (response) {
+          if (response.data.message === 'Success') {
+            _this2.next();
+          }
+        });
+      }
+    },
+    showVoucher: function showVoucher() {
+      $('#voucher-modal').modal('show');
+    },
+    closeSurvey: function closeSurvey() {
+      var currentUrl = window.location.pathname.split('/');
+      window.location.href = currentUrl[2];
+    }
+  },
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -4365,7 +5418,8 @@ __webpack_require__.r(__webpack_exports__);
       $('#voucher-modal').modal('show');
     },
     closeSurvey: function closeSurvey() {
-      window.location.href = "survey";
+      var currentUrl = window.location.pathname.split('/');
+      window.location.href = currentUrl[2];
     }
   },
   mounted: function mounted() {}
@@ -4809,6 +5863,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -4954,7 +6009,7 @@ __webpack_require__.r(__webpack_exports__);
         _this5.city_select = response.data.cities;
       });
     },
-    downloadExcel: function downloadExcel() {
+    downloadPdf: function downloadPdf() {
       if (this.city_value === '') {
         this.err_msg = 'City value is required';
         this.err = true;
@@ -4968,6 +6023,21 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       window.location.href = 'survey_number/pdf/' + this.city_value + '/' + this.shop_value;
+    },
+    downloadExcel: function downloadExcel() {
+      if (this.city_value === '') {
+        this.err_msg = 'City value is required';
+        this.err = true;
+        return;
+      }
+
+      if (this.shop_value === '') {
+        this.err_msg = 'Shop value is required';
+        this.err = true;
+        return;
+      }
+
+      window.location.href = 'survey_number/export/' + this.city_value + '/' + this.shop_value;
     }
   },
   mounted: function mounted() {
@@ -5603,7 +6673,7 @@ vue__WEBPACK_IMPORTED_MODULE_4__["default"].use(vue_tables_2__WEBPACK_IMPORTED_M
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-vue__WEBPACK_IMPORTED_MODULE_4__["default"].component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_4__["default"].component('survey_bais-component', __webpack_require__(/*! ./components/SurveyBaisComponent.vue */ "./resources/js/components/SurveyBaisComponent.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_4__["default"].component('survey-component', __webpack_require__(/*! ./components/SurveyComponent.vue */ "./resources/js/components/SurveyComponent.vue")["default"]);
 /* ####################################### admin ################################# */
 
@@ -25988,6 +27058,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.main-container .title {\n    font-size: 25px;\n}\n\n/*.VueTables {*/\n/*    font-size: 13px;*/\n/*}*/\n\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main-container {\n    width: 100%;\n    margin: 0;\n    padding: 0 10px 80px 10px;\n}\n.main-container .title h3 {\n    font-size: 20px;\n    font-weight: bold;\n}\n.main-container .language .select {\n    margin-bottom: 80px;\n    font-size: 20px;\n}\n.main-container .language .language_selection .flag {\n    width: 120px;\n    height: 60px;\n}\n.main-container .language .language_selection .flag img {\n    width: 100%;\n}\n.main-container .language .language_selection h3 {\n    text-align: center;\n    font-size: 15px;\n}\n.main-container .language,\n.main-container .personal_information,\n.main-container .transaction_type,\n.main-container .survey_questions, \n.main-container .rewards {\n   display: none;\n}\n\n/*#eng, #bis,*/\n/*.hidden-checkbox,*/\n/*.survey_questions_q_1,*/\n/*.survey_questions_q_2,*/\n/*.survey_questions_q_3,*/\n/*.survey_questions_q_4,*/\n/*.survey_questions_q_6,*/\n/*.survey_questions_q_7 {*/\n/*    display: none;*/\n/*}*/\ninput[type=\"radio\"] {\n    display: none;\n}\n.questions:hover {\n    /*background: #2ecc71;*/\n    /*color: #fff;*/\n    /*border: 1px solid #f5f6fa;*/\n}\ninput[type='text'].invalid,\ninput[type='number'].invalid,\ninput[type='date'].invalid,\ntextarea.invalid {\n    border: 1px solid #e74c3c;\n}\n.err_message {\n    display: none;\n    color: red;\n    font-weight: bold;\n}\n.check-box {\n    width: 20px;\n    height: 20px;\n    border: 1px solid #000;\n    border-radius: 50%;\n    padding: 2px;\n}\n.check-box .check-box-active {\n    display: none;\n    width: 100%;\n    height: 100%;\n    border-radius: 50%;\n    background: #2ecc71;\n}\n.others {\n    display: none;\n}\n.check-box-data-privacy {\n    width: 20px;\n    height: 20px;\n    border: 1px solid #000;\n    border-radius: 3px;\n}\n.data-privacy-checkbox input[type=\"checkbox\"] {\n    display: none;\n}\n.check-box-data-privacy i {\n    display: none;\n    margin-left: 1px;\n    font-size: 15px;\n    color: #27ae60;\n}\nlabel {\n    font-weight: normal !important;\n}\n.messagebox {\n    z-index: 500;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: rgba(52, 73, 94, 0.4);\n}\n.message-box-content {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    width: 600px;\n    padding: 50px;\n    background: rgba(236, 240, 241,1.0);\n}\n.message-box-header {\n    padding-bottom: 10px;\n    border-bottom: 1px solid rgba(189, 195, 199,1.0);\n}\n.message-box-body {\n    padding: 50px 0;\n}\n.message-box-footer {\n    padding-top: 10px;\n    border-top: 1px solid rgba(189, 195, 199,1.0);\n}\n.message-box-footer button {\n    float: right;\n}\n@media all and (max-width: 700px) {\n.message-box-content {\n        width: 90%;\n}\n}\n.voucher {\n    position: relative;\n}\n.modal-body {\n    position: relative;\n}\n.modal-body img {\n    width: 100%;\n}\n.voucher {\n    position:absolute; \n    width: 70%;\n    top: 230px;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n.voucher .voucher_code {\n    color: #fff;\n    font-weight: bold;\n    font-size: 25px;\n    padding: 10px;\n    border: 3px dashed #fff;\n}\n.voucher .shop_name {\n    color: #fff;\n    font-weight: bold;\n    font-size: 30px;\n}\n.voucher .shop_address {\n    color: #fff;\n    font-weight: bold;\n    font-size: 13px;\n}\n.close_survey {\n    width: 100%;\n    text-align: center;\n    padding: 5px;\n    font-size: 15px;\n}\n#other_answer {\n    display: none;\n    width: 100%;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -81943,6 +83037,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyComponent.vue?vue&type=style&index=0&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyComponent.vue?vue&type=style&index=0&lang=css& ***!
@@ -83786,45 +84910,6 @@ component.options.__file = "resources/js/components/CityComponent.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue":
-/*!******************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render,
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/ExampleComponent.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
 /***/ "./resources/js/components/HomeComponent.vue":
 /*!***************************************************!*\
   !*** ./resources/js/components/HomeComponent.vue ***!
@@ -83899,6 +84984,47 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/ShopComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/SurveyBaisComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/SurveyBaisComponent.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true& */ "./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true&");
+/* harmony import */ var _SurveyBaisComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SurveyBaisComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _SurveyBaisComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _SurveyBaisComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "8291de02",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/SurveyBaisComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -84118,22 +85244,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
 /***/ "./resources/js/components/HomeComponent.vue?vue&type=script&lang=js&":
 /*!****************************************************************************!*\
   !*** ./resources/js/components/HomeComponent.vue?vue&type=script&lang=js& ***!
@@ -84163,6 +85273,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ShopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ShopComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ShopComponent.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ShopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SurveyBaisComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -84259,6 +85385,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SurveyBaisComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/SurveyComponent.vue?vue&type=style&index=0&lang=css&":
 /*!**************************************************************************************!*\
   !*** ./resources/js/components/SurveyComponent.vue?vue&type=style&index=0&lang=css& ***!
@@ -84302,23 +85441,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \*************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-
-
-/***/ }),
-
 /***/ "./resources/js/components/HomeComponent.vue?vue&type=template&id=782dcf83&":
 /*!**********************************************************************************!*\
   !*** ./resources/js/components/HomeComponent.vue?vue&type=template&id=782dcf83& ***!
@@ -84349,6 +85471,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ShopComponent_vue_vue_type_template_id_2cbbc6cc___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ShopComponent_vue_vue_type_template_id_2cbbc6cc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ShopComponent.vue?vue&type=template&id=2cbbc6cc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ShopComponent.vue?vue&type=template&id=2cbbc6cc&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SurveyBaisComponent_vue_vue_type_template_id_8291de02_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true&");
 
 
 /***/ }),
@@ -84778,55 +85917,6 @@ var staticRenderFns = [
       },
       [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
     )
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \****************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                    "
-              ),
-              _c("i", { staticClass: "fas fa-volleyball-ball" })
-            ])
-          ])
-        ])
-      ])
-    ])
   }
 ]
 render._withStripped = true
@@ -86678,6 +87768,2285 @@ var staticRenderFns = [
       },
       [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
     )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/SurveyBaisComponent.vue?vue&type=template&id=8291de02&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "main-container" }, [
+    _vm.loader
+      ? _c(
+          "div",
+          {
+            staticStyle: {
+              position: "absolute",
+              top: "0",
+              left: "0",
+              "z-index": "1000",
+              width: "100%",
+              height: "100%",
+              background: "rgba(0, 0, 0, 0.2)"
+            }
+          },
+          [_vm._m(0)]
+        )
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.messagebox
+      ? _c("div", { staticClass: "messagebox" }, [
+          _c("div", { staticClass: "message-box-content" }, [
+            _c("div", { staticClass: "message-box-header" }, [
+              _vm._v("\n                    Message\n                ")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "message-box-body" }, [
+              _vm._v(
+                "\n                    " +
+                  _vm._s(_vm.message) +
+                  "\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "message-box-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-info",
+                  on: { click: _vm.closemessagebox }
+                },
+                [_vm._v("Close")]
+              )
+            ])
+          ])
+        ])
+      : _vm._e(),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c("section", { staticClass: "survey_stub text-center mt-5" }, [
+      _c("div", { staticClass: "container d-flex justify-content-center" }, [
+        _c("div", { staticClass: "form-group col-12 col-sm-4" }, [
+          _c("label", { attrs: { for: "stab" } }, [
+            _vm._v("Please Enter Survey Number")
+          ]),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.stub_number,
+                expression: "stub_number"
+              }
+            ],
+            staticClass: "form-control p-2 text-center",
+            staticStyle: { "font-weight": "bold" },
+            attrs: { type: "text", id: "stab" },
+            domProps: { value: _vm.stub_number },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.stub_number = $event.target.value
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("span", {
+            staticClass: "err",
+            staticStyle: {
+              color: "red",
+              "font-weight": "bold",
+              "font-size": "13px"
+            }
+          }),
+          _vm._v(" "),
+          _c("span", {
+            staticClass: "valid",
+            staticStyle: {
+              color: "#2ecc71",
+              "font-weight": "bold",
+              "font-size": "13px"
+            }
+          }),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-info form-control mt-1",
+              on: { click: _vm.validate_stub_number }
+            },
+            [_vm._v("Verify Number")]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "language text-center mt-5" }, [
+      _c("h3", { staticClass: "select" }, [_vm._v("Select your Language")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "language_selection container" }, [
+        _c("div", { staticClass: "row d-flex justify-content-between" }, [
+          _c(
+            "div",
+            {
+              staticClass: "col-5 d-flex justify-content-end align-items-center"
+            },
+            [
+              _c("label", { attrs: { for: "eng" } }, [
+                _c("div", { staticClass: "flag" }, [
+                  _c("input", {
+                    attrs: {
+                      type: "radio",
+                      name: "language_select",
+                      id: "eng"
+                    },
+                    on: { change: _vm.language_selection }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    attrs: {
+                      src: "public/image/icons/english_flag.png",
+                      alt: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "mt-3" }, [_vm._v("English")])
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-5 d-flex justify-content-start align-items-center"
+            },
+            [
+              _c("label", { attrs: { for: "bis" } }, [
+                _c("div", { staticClass: "flag" }, [
+                  _c("input", {
+                    attrs: {
+                      type: "radio",
+                      name: "language_select",
+                      id: "bis"
+                    },
+                    on: { change: _vm.language_selection }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    attrs: { src: "public/image/icons/ph_flag.png", alt: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("h3", { staticClass: "mt-3" }, [_vm._v("Bisaya")])
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "personal_information mt-5" }, [
+      _c("div", { staticClass: "container d-flex justify-content-center" }, [
+        _c("div", { staticClass: "col-12 col-sm-8 col-lg-5 form-group" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.survey.name,
+                expression: "survey.name"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: {
+              type: "text",
+              id: "name",
+              placeholder: "Last name, First name Middle name"
+            },
+            domProps: { value: _vm.survey.name },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.$set(_vm.survey, "name", $event.target.value)
+              }
+            }
+          }),
+          _vm._v(" "),
+          _c("div", [
+            _c(
+              "label",
+              {
+                staticStyle: { "font-weight": "normal" },
+                attrs: { for: "occupation" }
+              },
+              [_vm._v("2. Occupation")]
+            ),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.occupation,
+                    expression: "occupation"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: { id: "occupation", required: "" },
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.occupation = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "pub_employee" } }, [
+                  _vm._v("Public Employee")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "pri_employee" } }, [
+                  _vm._v("Private Employee")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "biz_owner" } }, [
+                  _vm._v("Business Owner")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "un_emp" } }, [
+                  _vm._v("Unemployed")
+                ]),
+                _vm._v(" "),
+                _c("option", { attrs: { value: "others" } }, [_vm._v("Others")])
+              ]
+            ),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "err",
+              staticStyle: {
+                color: "red",
+                "font-weight": "bold",
+                "font-size": "13px"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { attrs: { for: "date" } }, [
+              _vm._v("3. Date (mm/dd/yyyy)")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.date,
+                  expression: "survey.date"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "date", id: "date", required: "" },
+              domProps: { value: _vm.survey.date },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.survey, "date", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "err",
+              staticStyle: {
+                color: "red",
+                "font-weight": "bold",
+                "font-size": "13px"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("label", { attrs: { for: "age" } }, [_vm._v("4. Age")]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.age,
+                  expression: "survey.age"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "number", id: "age", required: "" },
+              domProps: { value: _vm.survey.age },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.survey, "age", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "err",
+              staticStyle: {
+                color: "red",
+                "font-weight": "bold",
+                "font-size": "13px"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "gender" } }, [_vm._v("5. Gender")]),
+          _vm._v(" "),
+          _c(
+            "select",
+            {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.gender,
+                  expression: "gender"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { id: "gender" },
+              on: {
+                change: function($event) {
+                  var $$selectedVal = Array.prototype.filter
+                    .call($event.target.options, function(o) {
+                      return o.selected
+                    })
+                    .map(function(o) {
+                      var val = "_value" in o ? o._value : o.value
+                      return val
+                    })
+                  _vm.gender = $event.target.multiple
+                    ? $$selectedVal
+                    : $$selectedVal[0]
+                }
+              }
+            },
+            [
+              _c("option", [_vm._v("Male")]),
+              _vm._v(" "),
+              _c("option", [_vm._v("Female")])
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.survey.email,
+                expression: "survey.email"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { type: "text", id: "email" },
+            domProps: { value: _vm.survey.email },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.$set(_vm.survey, "email", $event.target.value)
+              }
+            }
+          }),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.survey.mobile,
+                expression: "survey.mobile"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { type: "text", id: "mobile" },
+            domProps: { value: _vm.survey.mobile },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.$set(_vm.survey, "mobile", $event.target.value)
+              }
+            }
+          })
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "transaction_type mt-5" }, [
+      _c("div", { staticClass: "container d-flex justify-content-center" }, [
+        _c("div", { staticClass: "col-12 col-sm-8 col-lg-5 form-group" }, [
+          _vm.language === "bis"
+            ? _c("label", [
+                _vm._v("1. Unsa na transaksyon sa LGU ang imong gi proceso?")
+              ])
+            : _c("label", [
+                _vm._v("1. What type of transaction did you process?")
+              ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "hidden-checkbox" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.transact_type,
+                  expression: "survey.transact_type"
+                }
+              ],
+              attrs: {
+                type: "radio",
+                name: "transact_type_q",
+                id: "transact_type_q_1",
+                value: "transact_1"
+              },
+              domProps: {
+                checked: _vm._q(_vm.survey.transact_type, "transact_1")
+              },
+              on: {
+                change: [
+                  function($event) {
+                    return _vm.$set(_vm.survey, "transact_type", "transact_1")
+                  },
+                  _vm.checkbox
+                ]
+              }
+            }),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.transact_type,
+                  expression: "survey.transact_type"
+                }
+              ],
+              attrs: {
+                type: "radio",
+                name: "transact_type_q",
+                id: "transact_type_q_2",
+                value: "transact_2"
+              },
+              domProps: {
+                checked: _vm._q(_vm.survey.transact_type, "transact_2")
+              },
+              on: {
+                change: [
+                  function($event) {
+                    return _vm.$set(_vm.survey, "transact_type", "transact_2")
+                  },
+                  _vm.checkbox
+                ]
+              }
+            }),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.transact_type,
+                  expression: "survey.transact_type"
+                }
+              ],
+              attrs: {
+                type: "radio",
+                name: "transact_type_q",
+                id: "transact_type_q_3",
+                value: "transact_3"
+              },
+              domProps: {
+                checked: _vm._q(_vm.survey.transact_type, "transact_3")
+              },
+              on: {
+                change: [
+                  function($event) {
+                    return _vm.$set(_vm.survey, "transact_type", "transact_3")
+                  },
+                  _vm.checkbox
+                ]
+              }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "err",
+              staticStyle: {
+                color: "red",
+                "font-weight": "bold",
+                "font-size": "13px"
+              }
+            }),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _vm._m(6),
+            _vm._v(" "),
+            _vm._m(7)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "survey_questions mt-5" }, [
+      _c("div", { staticClass: "container d-flex justify-content-center" }, [
+        _c("div", { staticClass: "form-group col-12 col-sm-8 col-lg-5" }, [
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            2. Pila ka minutos o oras ka nahuman sa imong gipa proceso? "
+                  ),
+                  _c("br")
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            2. How many minutes/hours did it take to finish your transaction? "
+                  ),
+                  _c("br")
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_1_1" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_1_1,
+                    expression: "survey.survey_q_1_1"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_1_1",
+                  id: "survey_questions_q_1_1_1",
+                  value: "survey_q_1_1_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_1_1, "survey_q_1_1_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(
+                        _vm.survey,
+                        "survey_q_1_1",
+                        "survey_q_1_1_1"
+                      )
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_1_1,
+                    expression: "survey.survey_q_1_1"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_1_1",
+                  id: "survey_questions_q_1_1_2",
+                  value: "survey_q_1_1_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_1_1, "survey_q_1_1_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(
+                        _vm.survey,
+                        "survey_q_1_1",
+                        "survey_q_1_1_2"
+                      )
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(8),
+              _vm._v(" "),
+              _vm._m(9)
+            ]),
+            _vm._v(" "),
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            Ug ika pila ka ga balik mi aning transakyon usa nimo nahuman? "
+                  ),
+                  _c("br")
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            And how many times did it take for your to go  back to the City / Municipal office/s to complete your transaction? "
+                  ),
+                  _c("br")
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_1_2" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_1_2,
+                    expression: "survey.survey_q_1_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_1_2",
+                  id: "survey_questions_q_1_2_1",
+                  value: "survey_q_1_2_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_1_2, "survey_q_1_2_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(
+                        _vm.survey,
+                        "survey_q_1_2",
+                        "survey_q_1_2_1"
+                      )
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_1_2,
+                    expression: "survey.survey_q_1_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_1_2",
+                  id: "survey_questions_q_1_2_2",
+                  value: "survey_q_1_2_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_1_2, "survey_q_1_2_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(
+                        _vm.survey,
+                        "survey_q_1_2",
+                        "survey_q_1_2_2"
+                      )
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(10),
+              _vm._v(" "),
+              _vm._m(11)
+            ]),
+            _vm._v(" "),
+            _vm._m(12)
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            3. Para sa imo, hapsay ba ang proceso "
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            (pag sulat sa form, pag bayad, ug pag kuha sa dokumento ug resibo) ni ani?\n                        "
+                  )
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            3. How convenient and efficient the transaction process "
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            (filling in of form, payment, release of docs and issuance of receipts) for you?\n                        "
+                  )
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_2" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_2,
+                    expression: "survey.survey_q_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_2",
+                  id: "survey_questions_q_2_1",
+                  value: "survey_q_2_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_2, "survey_q_2_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_2", "survey_q_2_1")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_2,
+                    expression: "survey.survey_q_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_2",
+                  id: "survey_questions_q_2_2",
+                  value: "survey_q_2_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_2, "survey_q_2_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_2", "survey_q_2_2")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_2,
+                    expression: "survey.survey_q_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_2",
+                  id: "survey_questions_q_2_3",
+                  value: "survey_q_2_3"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_2, "survey_q_2_3")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_2", "survey_q_2_3")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_2,
+                    expression: "survey.survey_q_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_2",
+                  id: "survey_questions_q_2_4",
+                  value: "survey_q_2_4"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_2, "survey_q_2_4")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_2", "survey_q_2_4")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_2,
+                    expression: "survey.survey_q_2"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_2",
+                  id: "survey_questions_q_2_5",
+                  value: "survey_q_2_5"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_2, "survey_q_2_5")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_2", "survey_q_2_5")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(13)
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            4. Unsay imong ika sulti gamit ang numero basi sa serbisyo na gihatag"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            ni aning Suidad or Munisipyo?\n                        "
+                  )
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            4. How do you find the services provided by the City / Municipality?\n                        "
+                  )
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_3" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_3,
+                    expression: "survey.survey_q_3"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_3",
+                  id: "survey_questions_q_3_1",
+                  value: "survey_q_3_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_3, "survey_q_3_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_3", "survey_q_3_1")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_3,
+                    expression: "survey.survey_q_3"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_3",
+                  id: "survey_questions_q_3_2",
+                  value: "survey_q_3_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_3, "survey_q_3_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_3", "survey_q_3_2")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_3,
+                    expression: "survey.survey_q_3"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_3",
+                  id: "survey_questions_q_3_3",
+                  value: "survey_q_3_3"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_3, "survey_q_3_3")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_3", "survey_q_3_3")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_3,
+                    expression: "survey.survey_q_3"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_3",
+                  id: "survey_questions_q_3_4",
+                  value: "survey_q_3_4"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_3, "survey_q_3_4")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_3", "survey_q_3_4")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_3,
+                    expression: "survey.survey_q_3"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_3",
+                  id: "survey_questions_q_3_5",
+                  value: "survey_q_3_5"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_3, "survey_q_3_5")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_3", "survey_q_3_5")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(14)
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            5. Para mas ma serbisyohan pa ug maayo, ganahan mi makabalo sa imong ideya kun unsa pay dapat buhaton kabahin ni aning mga facilidad ug serbisyo.\n                        "
+                  )
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            5. We want to know your thoughts on how to improve our facilities and services to serve you better. Please write it on the box provided.\n                        "
+                  )
+                ]),
+            _vm._v(" "),
+            _c("textarea", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.survey.survey_q_4,
+                  expression: "survey.survey_q_4"
+                }
+              ],
+              staticClass: "p-3",
+              staticStyle: { width: "100%" },
+              attrs: { id: "survey_questions_q_box" },
+              domProps: { value: _vm.survey.survey_q_4 },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.survey, "survey_q_4", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "err",
+              staticStyle: {
+                color: "red",
+                "font-weight": "bold",
+                "font-size": "13px"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            6. Lagmit abre baka sa ideya na naay 'Online Platform System' na puede maka transak?\n                            ug ika pila sama sa mga dokumento o ug unsa man imong kinahanglan i.proceso ni\n                            aning Syudad or Munisipyo para ma minusan imong oras ug mas makapadali sa ni aning\n                            mga transakyon?\n                        "
+                  )
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            6. Are you open to the idea of an ‘Online Platform System’ that you can do multiple transactions and payments at once to facilitate the effort and time spent on the City / Town LGU?\n                        "
+                  )
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_5" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_5,
+                    expression: "survey.survey_q_5"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_5",
+                  id: "survey_questions_q_5_1",
+                  value: "survey_q_5_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_5, "survey_q_5_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_5", "survey_q_5_1")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_5,
+                    expression: "survey.survey_q_5"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_5",
+                  id: "survey_questions_q_5_2",
+                  value: "survey_q_5_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_5, "survey_q_5_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_5", "survey_q_5_2")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(15),
+              _vm._v(" "),
+              _vm._m(16)
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5" }, [
+            _vm.language === "bis"
+              ? _c("label", [
+                  _vm._v(
+                    "\n                            7. Sama sa 'Online Platform System', okay ra ba nimo ug naay patong na 'transaction fee' ni ani?\n                        "
+                  )
+                ])
+              : _c("label", [
+                  _vm._v(
+                    "\n                            7. Is it acceptable for you to add a convenience fee on top of the transaction fees?\n                        "
+                  )
+                ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "survey_questions_q_6" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_6,
+                    expression: "survey.survey_q_6"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_6",
+                  id: "survey_questions_q_6_1",
+                  value: "survey_q_6_1"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_6, "survey_q_6_1")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_6", "survey_q_6_1")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.survey_q_6,
+                    expression: "survey.survey_q_6"
+                  }
+                ],
+                attrs: {
+                  type: "radio",
+                  name: "survey_questions_q_6",
+                  id: "survey_questions_q_6_2",
+                  value: "survey_q_6_2"
+                },
+                domProps: {
+                  checked: _vm._q(_vm.survey.survey_q_6, "survey_q_6_2")
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      return _vm.$set(_vm.survey, "survey_q_6", "survey_q_6_2")
+                    },
+                    _vm.checkbox
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              }),
+              _vm._v(" "),
+              _vm._m(17),
+              _vm._v(" "),
+              _vm._m(18)
+            ]),
+            _vm._v(" "),
+            _c("div", { attrs: { id: "other_answer" } }, [
+              _c("textarea", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.other_answer,
+                    expression: "other_answer"
+                  }
+                ],
+                staticClass: "p-3",
+                staticStyle: { width: "100%" },
+                attrs: { placeholder: "Reason", id: "other_answer_text" },
+                domProps: { value: _vm.other_answer },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.other_answer = $event.target.value
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-5 container-fluid" }, [
+            _c("div", { staticClass: "data-privacy-checkbox" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.survey.data_privacy,
+                    expression: "survey.data_privacy"
+                  }
+                ],
+                attrs: { type: "checkbox", id: "data-privacy" },
+                domProps: {
+                  checked: Array.isArray(_vm.survey.data_privacy)
+                    ? _vm._i(_vm.survey.data_privacy, null) > -1
+                    : _vm.survey.data_privacy
+                },
+                on: {
+                  change: [
+                    function($event) {
+                      var $$a = _vm.survey.data_privacy,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = null,
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 &&
+                            _vm.$set(
+                              _vm.survey,
+                              "data_privacy",
+                              $$a.concat([$$v])
+                            )
+                        } else {
+                          $$i > -1 &&
+                            _vm.$set(
+                              _vm.survey,
+                              "data_privacy",
+                              $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                            )
+                        }
+                      } else {
+                        _vm.$set(_vm.survey, "data_privacy", $$c)
+                      }
+                    },
+                    _vm.dataprivacycheck
+                  ]
+                }
+              }),
+              _vm._v(" "),
+              _c("span", {
+                staticClass: "err",
+                staticStyle: {
+                  color: "red",
+                  "font-weight": "bold",
+                  "font-size": "13px"
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(19)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "rewards mt-5" }, [
+      _c("div", { staticClass: "container text-center" }, [
+        _c("h4", [_vm._v("Thank you for answering this survey!")]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "btn btn-info mt-1", on: { click: _vm.showVoucher } },
+          [_vm._v("Claim your reward!")]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _vm.page !== 0 && _vm.page !== 1 && _vm.page !== 5
+      ? _c(
+          "section",
+          { staticClass: "user-button d-flex justify-content-center" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "col-12 col-sm-8 col-lg-5 form-group text-center"
+              },
+              [
+                _vm.page > 2
+                  ? _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-light mr-3",
+                        on: { click: _vm.previous }
+                      },
+                      [_vm._v("Back")]
+                    )
+                  : _vm._e(),
+                _vm._v(" "),
+                _vm.page !== 4
+                  ? _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-success ml-3",
+                        on: { click: _vm.next }
+                      },
+                      [
+                        _vm._v("Next"),
+                        _c("i", { staticClass: "ml-3 fas fa-angle-right" })
+                      ]
+                    )
+                  : _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-success ml-3",
+                        attrs: { id: "submit" },
+                        on: { click: _vm.submit }
+                      },
+                      [
+                        _vm._v("Submit "),
+                        _c("i", { staticClass: "ml-3 fas fa-angle-right" })
+                      ]
+                    )
+              ]
+            )
+          ]
+        )
+      : _vm._e(),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "voucher-modal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "modal-body p-1",
+                  staticStyle: { overflow: "hidden" }
+                },
+                [
+                  _c("img", {
+                    attrs: { src: "public/image/voucher/voucher.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "voucher text-center" }, [
+                    _c("div", { staticClass: "shop_name" }, [
+                      _vm._v(_vm._s(_vm.voucher_details.shop_name))
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "voucher_code" }, [
+                      _vm._v(_vm._s(_vm.voucher_details.voucher_code))
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "span",
+                      {
+                        staticStyle: {
+                          "font-size": "12px",
+                          "font-weight": "bold",
+                          color: "#fff"
+                        }
+                      },
+                      [_vm._v("Store address")]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "shop_address" }, [
+                      _vm._v(_vm._s(_vm.voucher_details.shop_address))
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close_survey btn btn-info",
+                      on: { click: _vm.closeSurvey }
+                    },
+                    [
+                      _c("i", { staticClass: "fas fa-check mr-3" }),
+                      _vm._v(" Finish Survey\n                        ")
+                    ]
+                  )
+                ]
+              )
+            ])
+          ]
+        )
+      ]
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticStyle: {
+          position: "fixed",
+          top: "450px",
+          left: "55%",
+          transform: "translate(-50%, -70%)"
+        }
+      },
+      [_c("img", { attrs: { src: "public/loader/loader.gif", alt: "loader" } })]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "title",
+        staticStyle: { width: "100%", "text-align": "center" }
+      },
+      [
+        _c("h3", { staticClass: "mt-2" }, [
+          _vm._v(
+            "Survey on Ease of Doing Transaction with your City / Municipal LGU"
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "name" } }, [
+      _vm._v("1. Name (optional)"),
+      _c("span", { staticStyle: { color: "red" } }, [_vm._v("*")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "email" } }, [
+      _vm._v("6. Email Address (optional)"),
+      _c("span", { staticStyle: { color: "red" } }, [_vm._v("*")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "mobile" } }, [
+      _vm._v("7. Mobile Number (optional)"),
+      _c("span", { staticStyle: { color: "red" } }, [_vm._v("*")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticStyle: { width: "100%" }, attrs: { for: "transact_type_q_1" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "transact_type_q_1 check-box active mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                Business Permit and Licensing\n                            "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticStyle: { width: "100%" }, attrs: { for: "transact_type_q_2" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c("div", { staticClass: "check-box transact_type_q_2 mr-3" }, [
+              _c("div", { staticClass: "check-box-active" })
+            ]),
+            _vm._v(
+              "\n                                Real Property Tax Assessment (amilyar)\n                            "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticStyle: { width: "100%" }, attrs: { for: "transact_type_q_3" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c("div", { staticClass: "check-box transact_type_q_3 mr-3" }, [
+              _c("div", { staticClass: "check-box-active" })
+            ]),
+            _vm._v(
+              "\n                                Issuance of Certificate\n                            "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_1_1_1" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_1_1_1 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    Less than 30 minutes\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_1_1_2" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_1_1_2 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    More than an hour\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_1_2_1" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_1_2_1 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    Once\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_1_2_2" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_1_2_2 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    More than once\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticClass: "mt-4 mb-2",
+        staticStyle: { "font-weight": "bold !important" }
+      },
+      [
+        _vm._v(
+          "\n                            Kindly place a check mark to your answer. "
+        ),
+        _c("br"),
+        _vm._v(
+          "\n                            Excellent - 5\n                            "
+        ),
+        _c("span", { staticStyle: { color: "#686de0" } }, [_vm._v("4")]),
+        _vm._v(" "),
+        _c("span", { staticStyle: { color: "#f9ca24" } }, [_vm._v("3")]),
+        _vm._v(" "),
+        _c("span", { staticStyle: { color: "#ff6b6b" } }, [_vm._v("2")]),
+        _vm._v(" "),
+        _c("span", { staticStyle: { color: "#d63031" } }, [_vm._v("1 - Low")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex justify-content-between" }, [
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_2_1" }
+        },
+        [
+          _vm._v(
+            "\n                                    1\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_2_1" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_2_2" }
+        },
+        [
+          _vm._v(
+            "\n                                    2\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_2_2" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_2_3" }
+        },
+        [
+          _vm._v(
+            "\n                                    3\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_2_3" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_2_4" }
+        },
+        [
+          _vm._v(
+            "\n                                    4\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_2_4" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_2_5" }
+        },
+        [
+          _vm._v(
+            "\n                                    5\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_2_5" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex justify-content-between" }, [
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_3_1" }
+        },
+        [
+          _vm._v(
+            "\n                                    1\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_3_1" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_3_2" }
+        },
+        [
+          _vm._v(
+            "\n                                    2\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_3_2" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_3_3" }
+        },
+        [
+          _vm._v(
+            "\n                                    3\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_3_3" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_3_4" }
+        },
+        [
+          _vm._v(
+            "\n                                    4\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_3_4" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "label",
+        {
+          staticClass: "text-center",
+          attrs: { for: "survey_questions_q_3_5" }
+        },
+        [
+          _vm._v(
+            "\n                                    5\n                                    "
+          ),
+          _c(
+            "div",
+            {
+              staticClass:
+                "questions d-flex justify-content-start align-items-center p-2 rounded"
+            },
+            [
+              _c("div", { staticClass: "check-box survey_questions_q_3_5" }, [
+                _c("div", { staticClass: "check-box-active" })
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_5_1" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_5_1 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    Yes\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_5_2" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_5_2 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    No\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_6_1" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_6_1 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    Yes\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticStyle: { width: "100%" },
+        attrs: { for: "survey_questions_q_6_2" }
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "questions d-flex justify-content-start align-items-center p-2 rounded"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "check-box survey_questions_q_6_2 mr-3" },
+              [_c("div", { staticClass: "check-box-active" })]
+            ),
+            _vm._v(
+              "\n                                    No\n                                "
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-1" }, [
+        _c("label", { attrs: { for: "data-privacy" } }, [
+          _c(
+            "div",
+            {
+              staticClass: "check-box-data-privacy d-flex align-items-center",
+              staticStyle: { "margin-top": "2px" }
+            },
+            [_c("i", { staticClass: "fas fa-check", attrs: { id: "check" } })]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-11" }, [
+        _c("p", { staticStyle: { "font-size": "12px" } }, [
+          _vm._v(
+            "\n                                    By checking this box, I consent that the entity who conducted this survey may consume the information\n                                    provided in whatever business or legal purpose it may serve under the compliance and protection of the\n                                    Data Privacy Act of the Philippines.\n                                "
+          )
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -89586,11 +92955,23 @@ var render = function() {
                       "button",
                       {
                         staticClass: "btn btn-light",
-                        on: { click: _vm.downloadExcel }
+                        on: { click: _vm.downloadPdf }
                       },
                       [
                         _c("i", { staticClass: "fas fa-print mr-2" }),
                         _vm._v("Print")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-light",
+                        on: { click: _vm.downloadExcel }
+                      },
+                      [
+                        _c("i", { staticClass: "fas fa-download mr-2" }),
+                        _vm._v("Download Excel")
                       ]
                     )
                   ])

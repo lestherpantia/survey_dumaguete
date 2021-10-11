@@ -1090,7 +1090,10 @@ export default {
         },
 
         closeSurvey() {
-            window.location.href = "survey";
+            
+                let currentUrl = window.location.pathname.split('/');
+                window.location.href = currentUrl[2];
+                
         }
 
     },

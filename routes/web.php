@@ -10,6 +10,8 @@ use App\Http\Controllers\VoucherController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\SampleController;
 use App\Http\Controllers\ShopController;
+use App\Http\Controllers\DumagueteController;
+use App\Http\Controllers\BaisController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,12 +26,16 @@ use App\Http\Controllers\ShopController;
 Auth::routes(['verify'=> true]);
 
 
-Route::get('/', [SurveyController::class, 'index']);
-Route::get('/survey', [SurveyController::class, 'index']);
+
+
+Route::get('dumaguete', [SurveyController::class, 'index']);
+Route::get('bais', [BaisController::class, 'index']);
+
+
+
 Route::post('survey/store', [SurveyController::class, 'store']);
 Route::get('survey/check/{code}', [SurveyController::class, 'check']);
 Route::get('survey/voucher/{code}/{id}', [SurveyController::class, 'voucher']);
-Route::get('practice', [SampleController::class, 'index']);
 
 
 Route::group(['middleware'=> 'auth'], function() {
@@ -64,6 +70,7 @@ Route::group(['middleware'=> 'auth'], function() {
     Route::get('survey_number/filter/{city}/{shop}', [SurveyStubNumberController::class, 'filter']);
     Route::get('survey_number/getshopdata/{city}', [SurveyStubNumberController::class, 'getshopdata']);
     Route::get('survey_number/pdf/{city}/{shop}', [SurveyStubNumberController::class, 'pdf']);
+    Route::get('survey_number/export/{city}/{shop}', [SurveyStubNumberController::class, 'export']);
 
 
     /* survey */

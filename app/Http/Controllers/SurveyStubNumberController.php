@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\City;
 use App\Models\Shop;
 use App\Models\SurveyStubNumber;
+use App\Exports\SurveyStubExport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use PDF;
+use Excel;
 
 class SurveyStubNumberController extends Controller
 {
@@ -137,21 +139,40 @@ class SurveyStubNumberController extends Controller
     }
 
 
-
-    public function pdf($city, $shop) 
+    public function export_report($city, $shop)
     {
 
-            $stub_number = SurveyStubNumber::leftJoin('cities', 'cities.id', 'survey_stub_numbers.city_id')
+            return SurveyStubNumber::leftJoin('cities', 'cities.id', 'survey_stub_numbers.city_id')
             ->leftJoin('shops', 'shops.id', 'survey_stub_numbers.shop_id')
             ->select('survey_stub_numbers.*', 'cities.name as city', 'shops.shop_name')
             ->where('survey_stub_numbers.city_id', $city)
             ->where('survey_stub_numbers.shop_id', $shop)
+            ->orderBy('survey_stub_numbers.survey_stub')
             ->get();
 
+    } 
+
+
+
+    public function pdf($city, $shop) 
+    {
+
+            $stub_number = $this->export_report($city, $shop);
             $pdf = \App::make('dompdf.wrapper');
             $pdf->getDomPDF()->set_option("enable_php", true);
             $pdf->loadView('pdf.stub_number', compact('stub_number'));
             return $pdf->stream();
+
+    }
+
+
+    
+    public function export($city, $shop)
+    {
+
+            $stub_number = $this->export_report($city, $shop);
+            $export = new SurveyStubExport($stub_number);
+            return Excel::download($export, 'sample.xlsx');
 
     }
 

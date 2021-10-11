@@ -33,7 +33,7 @@
 
     header {
         width: 100%;
-        padding: 20px 40px 0;
+        padding: 20px 40px 30px;
     }
 
     header img {
@@ -45,6 +45,10 @@
         font-weight: bold;
     }
 
+    header .logo {
+        width: 120px;
+    }
+
 
     @media all and (max-width: 1097px) {
         header {
@@ -53,6 +57,10 @@
 
         header img {
             width: 150px;
+        }
+
+        header .logo {
+            width: 100px;
         }
 
         header h3 {

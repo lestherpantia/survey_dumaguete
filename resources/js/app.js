@@ -92,7 +92,7 @@ Vue.use(ClientTable, {}, false, 'bootstrap4');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('survey_bais-component', require('./components/SurveyBaisComponent.vue').default);
 Vue.component('survey-component', require('./components/SurveyComponent.vue').default);
 
 /* ####################################### admin ################################# */

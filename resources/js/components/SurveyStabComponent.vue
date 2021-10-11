@@ -66,7 +66,8 @@
 
                                 <div class="col-6 text-right">
                                     <button class="btn btn-success mr-1" v-on:click="createRecord"><i class="fas fa-plus mr-2"></i>Add new Number</button>
-                                    <button class="btn btn-light" v-on:click="downloadExcel"><i class="fas fa-print mr-2"></i>Print</button>
+                                    <button class="btn btn-light" v-on:click="downloadPdf"><i class="fas fa-print mr-2"></i>Print</button>
+                                    <button class="btn btn-light" v-on:click="downloadExcel"><i class="fas fa-download mr-2"></i>Download Excel</button>
                                 </div>
                             </div>
                         </div>
@@ -375,21 +376,40 @@ export default {
 
 
 
+        downloadPdf() {
+
+                if(this.city_value === '') {
+                    this.err_msg = 'City value is required';
+                    this.err = true;
+                    return;
+                }
+
+                if(this.shop_value === '') {
+                    this.err_msg = 'Shop value is required';
+                    this.err = true;
+                    return;
+                }
+
+                window.location.href = 'survey_number/pdf/' + this.city_value + '/' + this.shop_value;
+        },
+
+
         downloadExcel() {
 
-            if(this.city_value === '') {
-                this.err_msg = 'City value is required';
-                this.err = true;
-                return;
-            }
+                if(this.city_value === '') {
+                    this.err_msg = 'City value is required';
+                    this.err = true;
+                    return;
+                }
 
-            if(this.shop_value === '') {
-                this.err_msg = 'Shop value is required';
-                this.err = true;
-                return;
-            }
+                if(this.shop_value === '') {
+                    this.err_msg = 'Shop value is required';
+                    this.err = true;
+                    return;
+                }
 
-            window.location.href = 'survey_number/pdf/' + this.city_value + '/' + this.shop_value;
+                window.location.href = 'survey_number/export/' + this.city_value + '/' + this.shop_value;
+
         }
 
 
